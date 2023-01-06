@@ -1,0 +1,204 @@
+/* *{
+    box-sizing:border-box;
+}
+nav{
+    display:grid;
+    grid-template-columns: 70px 2fr 1fr 3fr 1fr 100px;
+   height:60px;
+   width:100vw;
+    
+    align-content:center;
+    background-color:blueviolet;
+}
+.logo{
+    grid-column: 2/3;
+   display:flex;
+   align-items: center;
+}
+.profileIcon{
+    background:transparent;
+    outline: none;
+    border:none;
+    color:white;
+    transform:scale(2);
+    
+
+}
+ul{
+    list-style:none;
+    grid-column:4/5;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+.link{
+    text-decoration:none;
+    font-size: 22px;
+    color:black;
+}
+
+
+#navBtn {
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    display: none;
+    font-size: 1.8rem;
+}
+
+@media screen and (max-width:600px){
+
+.profileIcon{
+    display:none;
+ }
+ .ul{
+    visibility:hidden;
+    
+ }
+ #navBtn {
+   display:unset
+ }
+ nav{
+    display:flex;
+    justify-content: space-evenly;
+    height: 60px;
+        width: 100vw;
+    
+        /* align-content: center; */
+        /* background-color: blueviolet;
+   
+ }
+ .sideIcon{
+
+   /* color:white; */
+    
+    /* margin:10px;
+ }
+ 
+ .link{
+    color: white;
+        font-size: 40px;
+ }
+ .link:hover{
+    background-color:#DD5353 ;
+    padding:5px;
+ }
+ #responsiveNav {
+     transform: none;
+     visibility: visible;
+     z-index:10;
+    position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 5rem;
+        background-color: rgb(108, 0, 255, 1);
+        transition: .4s;
+         /* transform: translateY(-100vh);  */
+         /* z-index: 2;
+ } 
+ .navCloseBtn {
+     position: absolute;
+     top: 1rem;
+     right: 2rem; 
+ }  */
+
+ 
+/* }  */
+
+/* new css */
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Titillium Web", sans-serif;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 2rem;
+    background-color:#29335c; 
+    color: #eee;
+}
+
+nav a {
+    margin: 0 1rem;
+    color: #eee;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #db2b39;
+}
+
+header .nav-btn {
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #eee;
+    visibility: hidden;
+    opacity: 0;
+    font-size: 1.8rem;
+}
+
+header div,
+nav {
+    display: flex;
+    align-items: center;
+}
+nav{justify-content: flex-end;}
+
+@media only screen and (max-width: 1024px) {
+    header .nav-btn {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    header nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 30%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        background-color:#29335c;
+        transition: 0.5s;
+        transform: translateY(-40vh);
+        z-index:10;
+    }
+
+    header .responsive_nav {
+        transform: none;
+        z-index: 10;
+    }
+
+    nav .nav-close-btn {
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+    }
+
+    nav a {
+        font-size: 1.5rem;
+    }
+}

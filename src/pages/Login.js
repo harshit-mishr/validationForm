@@ -44,7 +44,7 @@ function Login() {
             src="https://imgs.search.brave.com/V76YI-9SO60Gq6MxpVzOAjuiGIttP9O62sgQ2NfwBNw/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5M/OGJzMzNtSkJBVUJB/MDF3QmZKbmpRQUFB/QSZwaWQ9QXBp"
             alt=""
           />
-          {/* <h1>Login</h1> */}
+           
         </div>
 
         <form onSubmit={handleSubmit}>

@@ -31,9 +31,9 @@ function About() {
         </div>
         <div className={style.leftContainer}>
           <div className={style.info}>
-            <h3>Nitin Mharanur</h3>
+            <h3>Harshit Mishra</h3>
             <p>
-              2. Heroines | Support for women Heroines is a platform which
+              Support for women Heroines is a platform which
               benefits diverse groups of women by hosting supportive events. The
               About Us page successfully captures the spirit of the
               organization, beginning with a heartwarming text about its mission
